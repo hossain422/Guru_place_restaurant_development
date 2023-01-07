@@ -1,0 +1,353 @@
+/*======================= Header =========================*/
+header{
+    width: 100% !important;
+    justify-content: space-between;
+    align-items: center;
+    transition: .7s;
+    background-color: black;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.navbar-brand img{
+    width: 250px;
+}
+.navbar .navbar-toggler{
+    background: #ddd;
+}
+.navbar .navbar-nav{
+    margin-left: auto;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    transition: 0.5s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color: #ef1e23;
+    border-bottom: 2px solid #ef1e23;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #ef1e23;
+    border-bottom: 2px solid #ef1e23;
+}
+.sub_menu{
+    display: none;
+    background-color: black;
+    padding-top: 20px;
+}
+.navbar .navbar-nav .nav-item:hover .sub_menu{
+    display: block;
+    position: absolute;
+}
+.sub_menu ul{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.sub_menu .nav-item{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.sub_menu ul .nav-item .nav-link{
+    transition: 0.5s;
+    border: none;
+}
+.navbar .btn_book{
+    text-decoration: none;
+    background-color: #ef1e23;
+    color: #fff;
+    padding: 15px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.navbar .btn_book:hover{
+    color: black;
+}
+
+/*================ Slider Section ===================*/
+#carouselExampleDark .carousel-item img{
+    height: 100vh;
+}
+#carouselExampleDark .carousel-item h1{
+    color: #fff;
+    margin-top: -285px;
+}
+.subscribe{
+    background-color: black;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+}
+.subscribe a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(228, 217, 173);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.subscribe a:hover{
+    color: #fff;
+    background-color: #ef1e23;
+}
+.subscribe h2{
+    color: #fff;
+}
+
+
+/*================ Our Story Section ===================*/
+
+.about{
+    background-image: url(../img/about_bg.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    
+}
+.about img{
+    width: 100%;
+}
+.about h1{
+    color: #ef1e23;
+}
+.about hr{
+    width: 73px;
+    height: 16px !important;
+    color: black;
+    font-size: 130px;
+    opacity: 1 !important;
+    border-top: 5px solid;
+}
+.about_btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+.about_btn:hover{
+    background-color: #ef1e23;
+}
+.about p{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.about .about_logo{
+    width: 200px;
+    text-align: center;
+}
+
+
+/*================ Catring Section ===================*/
+.catring{
+    background-image: url(../img/catering-back.jpg);
+    position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.catring h1{
+    color: rgb(228, 217, 173);
+}
+.catring hr{
+    width: 73px;
+    height: 16px !important;
+    color:  rgb(228, 217, 173);
+    font-size: 130px;
+    opacity: 1 !important;
+    border-top: 5px solid;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 40px;
+}
+.catring img{
+    border: 4px solid #fff;
+    width: 350px;
+    margin-bottom: 40px;
+}
+.catring a{
+    background-color: rgb(228, 217, 173);
+    color: black;
+    text-shadow: none;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.5s;
+    margin-top: 40px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.catring a:hover{
+    color: #fff;
+    background-color: #ef1e23;
+    
+}
+
+/*================ Our Menu Section ===================*/
+.our_menu{
+    background-image: url(../img/menu-graphic-1.png);
+    background-repeat: no-repeat;
+    background-position: center left !important;
+    background-size: 30% auto !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    
+    
+    width: 100%;
+}
+.our_menu h1{
+    color: #ef1e23;
+    margin-bottom: 40px;
+}
+.our_menu p{
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+/*================ Guru Place Section ===================*/
+
+.guru_place img{
+    width: 100% ;
+    transition: 0.5s;
+}
+.guru_place .place_img img{
+    width: 250px;
+    transition: 0.5s;
+}
+
+.guru_place img:hover{
+    transform: scale(1.04);
+}
+
+.guru_place{
+    width: 100%;
+}
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.find_us{
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.find_us h1{
+    color: #ef1e23;
+    margin-bottom: 30px;
+}
+.find_us p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*================ Footer Section ===================*/
+
+.footer_info{
+    background-color: #fffdf3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.color{
+    color: #ef1e23;
+}
+.footer_info h4{
+    margin-bottom: 30px;
+}
+.footer_info p{
+    margin-left: 0;
+    font-size: 18px;
+}
+.footer_info form input, textarea{
+    margin-bottom: 10px;
+    outline: none;
+    padding: 7px;
+    width: 270px;
+}
+.footer_info .sms_btn{
+    color: #fff;
+    background-color: black;
+    border: none;
+    transition: 0.5s;
+}
+.footer_info .sms_btn:hover{
+    color: #fff;
+    background: #ef1e23;
+}
+.footer_info ul{
+    padding-left: 0;
+}
+.footer_info ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.footer_info ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+.footer_info ul li a:hover{
+    color: #ef1e23;
+}
+.copyright{
+    background-color: black;
+    color: #fff;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.copyright img{
+    margin-top: -60px;
+}
+.copyright a{
+    background-color: #ef1e23;
+    color: #fff;
+    padding: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.copyright p{
+    margin-bottom: 30px;
+}
+
+
+
+/*=============== Responsive Design =================*/
+@media(max-width:768px){
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar .btn_book{
+        display: none;
+    }
+    #carouselExampleDark .carousel-item img{
+        height: 80vh;
+    }
+    .guru_place .place_img img{
+        width: 400px;
+        transition: 0.5s;
+    }
+    
+    
+}
