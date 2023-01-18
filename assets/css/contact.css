@@ -105,28 +105,34 @@ header{
 
 
 /*================ Our Story Section ===================*/
-.filtter{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.download_menu{
+    padding-top: 50px;
 }
-.filtter h1{
-    color: #ef1e23;
+.download_menu a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #ef1e23;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: 0.5s;
     font-weight: 600;
+    font-size: 18px;
+}
+.download_menu a:hover{
+    background-color: #000;
+}
+.download_menu img{
+    margin-top: 50px;
+    border: 4px solid #ef1e23;
+    margin-bottom: 50px;
+    transition: 0.5s;
+    width: -webkit-fill-available;
+}
+.download_menu img:hover{
+    transform: scale(1.04);
 }
 
-.gallery a{
-    display: inline-block;
-    width: 18%;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    text-align: left;
-}
-.gallery a img{
-    width: 235px;
-    height: 200px;
-
-}
 /*================ Review Section ===================*/
 
 .review{
@@ -342,15 +348,61 @@ figure.testimonial .peopl h3 {
 	content: "";
 }
 
-
-
-
-
-
-
-
-
-
+#v-pills-tab{
+    background-color: #000;
+    width: 270px;
+}
+#v-pills-tab .nav-link {
+    color: white;
+    width: 270px;
+    border-radius: inherit;
+    font-weight: 600;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: rgb(255, 255, 255) !important;
+    background-color: #ef1e23 !important;
+    border: 1px solid #e3e3e3;
+    border-radius: none;
+}
+.tab-content{
+    border: 2px solid #ddd;
+    padding: 20px;
+}
+.tab{
+    display: flex;
+}
+.contact a i{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.contact a i:hover{
+    background-color: #ef1e23;
+    color: #fff;
+    
+}
+.contact form input, .contact form textarea{
+    padding: 10px;
+    font-weight: 600;
+    width: 400px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+.contact button{
+    background-color: black;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: none !important;
+}
+.contact button:hover{
+    background-color: #ef1e23;
+}
 
 /*================ Footer Section ===================*/
 
@@ -440,20 +492,11 @@ figure.testimonial .peopl h3 {
         width: 400px;
         transition: 0.5s;
     }
-    .gallery a{
-        display: inline-block;
-        width: 98%;
-        margin-left: 5px;
-        margin-bottom: 5px;
-        text-align: center;
+    .tab{
+        display: block;
     }
-    .gallery a img{
-        width: 370px;
-        height: 370px;
-        text-align: center;
+    .tab-content{
+        margin-top: 20px;
+    }
     
-    }
-    .button-group .btn{
-        margin-bottom: 5px;
-    }
 }
