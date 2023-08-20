@@ -1,4 +1,4 @@
-# Guru_place_restaurant_design
+# Guru_place_restaurant_development
 #### Developed by PHP, Laravel, Ajax, JQuery, HTML, CSS, Bootstrap.
 1 .
 Demo site here...https://hossain422.github.io/Guru_place_restaurant_development/
